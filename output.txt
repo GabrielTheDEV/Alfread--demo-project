@@ -1,0 +1,13 @@
+
+ALFREAD – Voice Agent (MCP-powered)
+===================================
+
+Iron Man-style voice assistant that controls RGB lighting, runs diagnostics,
+scans the network, and triggers dramatic boot sequences via an MCP server
+running on the Windows host.
+
+MCP Server URL is auto-resolved from WSL → Windows host IP.
+
+Run:
+  uv run agent_friday.py dev      – LiveKit Cloud mode
+  uv run agent_friday.py console  – text-only console mode
